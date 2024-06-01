@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulls and Cows Game</title>
+   <style>
+        body {
+            background-image: url('https://cdn.akamai.steamstatic.com/steam/apps/2078210/capsule_616x353.jpg?t=1658648631');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bulls and Cows Game</h1>
+    <p>Enter a 4-digit number with no repeated digits:</p>
+    <input type="text" id="guessInput" maxlength="4">
+    <button onclick="submitGuess()">Submit Guess</button>
+     <button onclick="giveUp()">Give Up</button>
+    <div id="results"></div>
+    <div id="attempts"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
